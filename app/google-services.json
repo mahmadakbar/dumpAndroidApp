@@ -1,0 +1,107 @@
+{
+  "project_info": {
+    "project_number": "581941670709",
+    "firebase_url": "https://chatroom-bc90c.firebaseio.com",
+    "project_id": "chatroom-bc90c",
+    "storage_bucket": "chatroom-bc90c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581941670709:android:103e0f1da6367d2a",
+        "android_client_info": {
+          "package_name": "com.trimindi.mahmadakbar.mchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581941670709-bnhp58jqs15v2831a6bqmmvhng6ag7pm.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trimindi.mahmadakbar.mchat",
+            "certificate_hash": "1192cdac1cb49ff05a12ae303af2fb9f2f15d966"
+          }
+        },
+        {
+          "client_id": "581941670709-ba72kf8jpkcadjd1g6a7b9m5o3v69ecu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2R341OyTBeg3RpxeXPH1ur5N4T6YKIVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581941670709-ba72kf8jpkcadjd1g6a7b9m5o3v69ecu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:581941670709:android:ef212a841ccfbd93",
+        "android_client_info": {
+          "package_name": "com.trimindi.mahmadakbar.wise"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "581941670709-d4lv72unebd8102otkk46etpgk97lopo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trimindi.mahmadakbar.wise",
+            "certificate_hash": "add3a930e4346d16e273bdd85f5db5f70809539c"
+          }
+        },
+        {
+          "client_id": "581941670709-pngc9tov23p4gmip0s4na03ssnm2psuf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.trimindi.mahmadakbar.wise",
+            "certificate_hash": "1192cdac1cb49ff05a12ae303af2fb9f2f15d966"
+          }
+        },
+        {
+          "client_id": "581941670709-ba72kf8jpkcadjd1g6a7b9m5o3v69ecu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA2R341OyTBeg3RpxeXPH1ur5N4T6YKIVM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "581941670709-ba72kf8jpkcadjd1g6a7b9m5o3v69ecu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

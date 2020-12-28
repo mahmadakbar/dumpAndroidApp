@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/darkblue2"
+    tools:context=".StartActivity">
+
+    <ImageView
+        android:id="@+id/main_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/main_logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="200dp"
+        android:background="@color/yellow"/>
+
+    <ImageView
+        android:id="@+id/bottom_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="240dp"
+        android:background="@drawable/bottom_bg"
+        android:layout_alignParentBottom="true"/>
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/start_tabPager"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v4.view.ViewPager>
+
+    <android.support.design.widget.TabLayout
+        android:id="@+id/start_tabs"
+        android:elevation="0dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        app:tabBackground="@drawable/tab_selector"
+        app:tabGravity="center"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/transparent"
+        android:backgroundTint="@android:color/transparent"
+        app:tabIndicatorHeight="0dp">
+
+    </android.support.design.widget.TabLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WelcomeFragment">
+
+    <ImageView
+        android:id="@+id/background_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/page3"/>
+
+    <ImageView
+        android:layout_below="@id/background_welcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:src="@drawable/stars3"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="245dp"
+        android:layout_alignParentBottom="true"
+        android:adjustViewBounds="true"
+        android:background="@drawable/bg_fragment" />
+
+</RelativeLayout>

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/main_app_bar"
+    android:layout_width="match_parent"
+    android:layout_height="45dp"
+    android:background="@color/darkblue2"
+    android:contentInsetStart="10dp"
+    android:contentInsetLeft="10dp"
+    android:contentInsetRight="10dp"
+    android:contentInsetEnd="10dp"
+    app:contentInsetLeft="10dp"
+    app:contentInsetStart="10dp"
+    app:contentInsetRight="10dp"
+    app:contentInsetEnd="10dp"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar">
+
+    <RelativeLayout
+        android:id="@+id/appBarContentMain"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="invisible">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:layout_toStartOf="@+id/profile_circle"
+            android:text="Hi, User"
+            android:textColor="@color/white"
+            android:textSize="18sp"/>
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/profile_circle"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/avatar" />
+
+        <Button
+            android:id="@+id/profile_circle_btn"
+            android:layout_width="37dp"
+            android:layout_height="37dp"
+            android:layout_marginEnd="10dp"
+            android:layout_centerVertical="true"
+            android:layout_alignParentEnd="true"
+            android:background="@drawable/circle" />
+
+
+    </RelativeLayout>
+
+</android.support.v7.widget.Toolbar>
